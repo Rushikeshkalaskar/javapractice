@@ -1,0 +1,42 @@
+java.lang.Object
+       |
+       └── java.lang.Throwable
+              |
+              ├── java.lang.Error
+              │      |
+              │      ├── AssertionError
+              │      ├── LinkageError
+              │      │      ├── ExceptionInInitializerError
+              │      │      └── NoClassDefFoundError
+              │      ├── VirtualMachineError
+              │      │      ├── OutOfMemoryError
+              │      │      ├── StackOverflowError
+              │      │      └── InternalError
+              │      └── ...
+              |
+              └── java.lang.Exception
+                     |
+                     ├── RuntimeException
+                     │      |
+                     │      ├── NullPointerException
+                     │      ├── ArithmeticException
+                     │      ├── ArrayIndexOutOfBoundsException
+                     │      ├── StringIndexOutOfBoundsException
+                     │      ├── NumberFormatException
+                     │      ├── ClassCastException
+                     │      ├── IllegalArgumentException
+                     │      │      └── NumberFormatException
+                     │      ├── IllegalStateException
+                     │      └── ...
+                     |
+                     └── Other checked exceptions
+                            |
+                            ├── IOException
+                            │      ├── FileNotFoundException
+                            │      └── EOFException
+                            |
+                            ├── SQLException
+                            ├── ClassNotFoundException
+                            ├── InterruptedException
+                            ├── ParseException
+                            └── ...
