@@ -47,4 +47,5 @@ class option{
 		st.giveId(10);
 		System.out.println(st.takeId());
 	}
+
 }

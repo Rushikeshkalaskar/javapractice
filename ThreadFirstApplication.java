@@ -25,6 +25,7 @@ class Second extends Thread{
 		}
 	}
 }
+
 public class ThreadFirstApplication{
 	public static void main(String []args){
 	first f=new first();

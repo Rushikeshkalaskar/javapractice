@@ -10,7 +10,7 @@ class printabc{
 			System.out.println("\nsmall letters");
 			}
 			if( i>96 && i<=122){
-				System.out.print((char) i + " \t");
+				System.out.print((char) i + " \t"); 
 			}
 		}
 	}

@@ -13,6 +13,7 @@ class First extends Thread {
 		System.out.println("arror is "+ex);
 	}
 	}
+	
 }
 class Second extends Thread{
 	public void run(){
